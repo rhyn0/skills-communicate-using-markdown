@@ -11,3 +11,7 @@ from sqlalchemy import create_engine
 
 engine = create_engine(os.environ["PG_URL"])
 ```
+## To Dos
+
+- [X] Add engine creation documentation
+- [ ] Make ORM object based mappings
